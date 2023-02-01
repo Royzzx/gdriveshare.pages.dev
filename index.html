@@ -58,7 +58,7 @@
                   <div class="row justify-content-center hide" style="display:none;">
                      <br>
                      <h4><label for="exampleInputEmail1">Download Link</label></h4>
-                     
+                     <div class="col-12 col-md-8"> <input id="result" type="text" class="form-control" placeholder="Temporary Link Here" value="" readonly></div>
                      <div class="col-12 col-md-8"> <button id="download" style="margin-top: 5px;" class="btn btn-primary btn-block">Download</button></div>
                      <div class="col-12 col-md-8"> <button id="copybuttonid" style="margin-top: 5px;" onclick="copyFunction('result', 'copybuttonid')" onmouseout="outFunc('copybuttonid')" class="btn btn-success btn-block">Copy Link</button></div>
                      <div class="col-12 col-md-8"> <button id="shortlinktempurl" style="display:none; margin-top: 5px;" class="btn btn-danger btn-block">Shorten This URL</button></div>
@@ -67,18 +67,7 @@
                   <div class="row justify-content-center hide" id="folder" style="display:none;"></div>
                      <div class="row justify-content-center hide" style="display:none;">
                      <br>
-                     <h4><label for="exampleInputEmail1">Permanent Link</label></h4>
-                     <div class="col-12 col-md-8"> <input id="publicresult" type="text" class="form-control" placeholder="Permanent Link Here" value="" readonly></div>
-                     <div class="col-12 col-md-8"> <button id="publiccopybuttonid" style="margin-top: 5px;" onclick="copyFunction('publicresult', 'publiccopybuttonid')" onmouseout="outFunc('publiccopybuttonid')" class="btn btn-success btn-block">Copy Permanent Link</button></div>
-                     <div class="col-12 col-md-8"> <button id="shortlinkpermanenturl" style="display:none; margin-top: 5px;" class="btn btn-danger btn-block">Shorten This URL</button></div>
-                     </div><br>
-                     <div class="row justify-content-center" id="copy" style="display:none;">
-                     <br>
-                     <h4><label for="exampleInputEmail1">Copy File to Own Drive</label></h4>
-                     <div class="col-12 col-md-8"> <input id="user_folder_id" type="text" class="form-control" placeholder="Enter Your Folder ID to Copy this File" value="" required></div>
-                     <div class="col-12 col-md-8"> <button id="copy_file" style="margin-top: 5px;" class="btn btn-danger btn-block">Copy File</button></div>
-                     </div>
-                    <p class="mt-3">Once Generated, Sharable links are valid for 24 hours, while Permanent Links are valid for as long as that particular file is available.</p>
+                     
                     
                   </div>
             </center>
